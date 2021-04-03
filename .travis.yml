@@ -18,4 +18,5 @@ deploy:
   on:
     branch: master
   access_key_id: $aws_app_key
-  secret_access_key: $aws_secret_key
+  secret_access_key: 
+    secrue: "$aws_secret_key"
